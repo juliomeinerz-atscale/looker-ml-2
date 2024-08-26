@@ -1109,7 +1109,7 @@ view: Internet_Sales {
     }
 
     measure: Customer_Count_Order_Retail445_Prev {
-        label: "Customer Count-Order Retail445-Prev"
+        label: "Customer Count-Order Retail445-Prev "
         group_label: "Time Relative"
         value_format: "#.####"
         type: count_distinct
@@ -1252,7 +1252,7 @@ view: Internet_Sales {
     }
 
     measure: Estimated_Customer_Count_Order_Retail445_Prev {
-        label: "Estimated Customer Count-Order Retail445-Prev"
+        label: "Estimated Customer Count-Order Retail445-Prev "
         group_label: "Time Relative"
         value_format: "#.####"
         type: count_distinct
@@ -1396,7 +1396,7 @@ view: Internet_Sales {
     }
 
     measure: Last_Product_Unit_Price_Order_Retail445_Prev {
-        label: "Last Product Unit Price-Order Retail445-Prev"
+        label: "Last Product Unit Price-Order Retail445-Prev "
         group_label: "Time Relative"
         value_format: "$#,##0.00"
         type: average
@@ -1540,7 +1540,7 @@ view: Internet_Sales {
     }
 
     measure: Max_Tax_Amount_Order_Retail445_Prev {
-        label: "Max Tax Amount-Order Retail445-Prev"
+        label: "Max Tax Amount-Order Retail445-Prev "
         group_label: "Time Relative"
         value_format: "$#,##0.00"
         type: average
@@ -1698,7 +1698,7 @@ view: Internet_Sales {
     }
 
     measure: Sales_Amount_SStdev_Order_Retail445_Prev {
-        label: "Sales Amount SStdev-Order Retail445-Prev"
+        label: "Sales Amount SStdev-Order Retail445-Prev "
         group_label: "Time Relative"
         value_format: "$#,##0.00"
         type: average
@@ -1842,7 +1842,7 @@ view: Internet_Sales {
     }
 
     measure: Sales_Amount_Order_Retail445_Prev {
-        label: "Sales Amount-Order Retail445-Prev"
+        label: "Sales Amount-Order Retail445-Prev "
         group_label: "Time Relative"
         value_format: "$#,##0.00"
         type: average
@@ -1986,7 +1986,7 @@ view: Internet_Sales {
     }
 
     measure: SoldProductNDC_Order_Retail445_Prev {
-        label: "SoldProductNDC-Order Retail445-Prev"
+        label: "SoldProductNDC-Order Retail445-Prev "
         group_label: "Time Relative"
         value_format: "#.####"
         type: count_distinct
