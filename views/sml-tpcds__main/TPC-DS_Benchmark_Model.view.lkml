@@ -1527,14 +1527,6 @@ view: TPC_DS_Benchmark_Model {
         sql: ${TABLE}."m_returns_count_sum";;
     }
 
-    measure: Revenue_Ratio_by_Product_Class {
-        label: "Revenue Ratio by Product Class"
-        group_label: "Store Sales Measures"
-        value_format: "0.00%"
-        type: average
-        sql: ${TABLE}."Revenue Ratio by Product Class";;
-    }
-
     measure: Sales_by_Promotion_Ratio {
         label: "Sales by Promotion Ratio"
         group_label: "Store Sales Measures"
@@ -1626,6 +1618,14 @@ view: TPC_DS_Benchmark_Model {
         sql: ${TABLE}."m_ss_quantity_sum";;
     }
 
+    measure: Revenue_Ratio_by_Product_Class {
+        label: "Store Revenue Ratio by Product Class "
+        group_label: "Store Sales Measures"
+        value_format: "0.00%"
+        type: average
+        sql: ${TABLE}."Revenue Ratio by Product Class";;
+    }
+
     measure: Store_Sales_Increase {
         label: "Store Sales Increase"
         group_label: "Store Sales Measures"
@@ -1661,18 +1661,18 @@ view: TPC_DS_Benchmark_Model {
         sql: ${TABLE}."Store and Web Purchased Amount";;
     }
 
-    measure: Web_Catalog_Sales_Price_Growth {
-        label: "Web Catalog Sales Price Growth"
-        group_label: "Time Relative"
-        type: average
-        sql: ${TABLE}."Web Catalog Sales Price Growth";;
-    }
-
     measure: m_ws_cs_ext_sales_price_sum {
-        label: "m_ws_cs_ext_sales_price_sum"
+        label: "Web and Catalog Sales"
         group_label: "Time Relative"
         type: average
         sql: ${TABLE}."m_ws_cs_ext_sales_price_sum";;
+    }
+
+    measure: Web_Catalog_Sales_Price_Growth {
+        label: "Web-Catalog Sales Price Growth"
+        group_label: "Time Relative"
+        type: average
+        sql: ${TABLE}."Web Catalog Sales Price Growth";;
     }
 
     measure: Catalog_and_Web_Sales {
