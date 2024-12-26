@@ -1244,13 +1244,13 @@ view: Internet_Sales {
         sql: ${TABLE}."Estimated Customer Count-Order Retail445-30PrdMvAvgPrevYear";;
     }
 
-    measure: Estimated_Customer_Count_Order_Retail445_30PrdMvAvgPrevYearGrowthPct {
+    measure: EstimatedCustomerCount_OrderRetail445_30PrdMvAvgPrevYrGrowthPct {
         label: "Estimated Customer Count-Order Retail445-30PrdMvAvgPrevYearGrowthPct"
         group_label: "Time Relative"
         description: "Sales 30 Period Moving Avg  vs Prev Year as Percentage"
         value_format: "0.00%"
         type: average
-        sql: ${TABLE}."Estimated Customer Count-Order Retail445-30PrdMvAvgPrevYearGrowthPct";;
+        sql: ${TABLE}."EstimatedCustomerCount-OrderRetail445-30PrdMvAvgPrevYrGrowthPct";;
     }
 
     measure: Estimated_Customer_Count_Order_Retail445_30PrdMvLowerBand {
@@ -1406,13 +1406,13 @@ view: Internet_Sales {
         sql: ${TABLE}."Last Product Unit Price-Order Retail445-30PrdMvAvgPrevYear";;
     }
 
-    measure: Last_Product_Unit_Price_Order_Retail445_30PrdMvAvgPrevYearGrowthPct {
+    measure: LastProductUnitPrice_OrderRetail445_30PrdMvAvgPrevYearGrowthPct {
         label: "Last Product Unit Price-Order Retail445-30PrdMvAvgPrevYearGrowthPct"
         group_label: "Time Relative"
         description: "Sales 30 Period Moving Avg  vs Prev Year as Percentage"
         value_format: "0.00%"
         type: average
-        sql: ${TABLE}."Last Product Unit Price-Order Retail445-30PrdMvAvgPrevYearGrowthPct";;
+        sql: ${TABLE}."LastProductUnitPrice-OrderRetail445-30PrdMvAvgPrevYearGrowthPct";;
     }
 
     measure: Last_Product_Unit_Price_Order_Retail445_30PrdMvLowerBand {
