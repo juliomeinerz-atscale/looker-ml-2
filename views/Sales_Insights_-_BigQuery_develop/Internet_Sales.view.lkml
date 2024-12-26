@@ -891,6 +891,13 @@ view: Internet_Sales {
     }
 
 
+    measure: calculation_1 {
+        label: "calculation-1"
+        value_format: "0.00"
+        type: count_distinct
+        sql: ${TABLE}."calculation-1";;
+    }
+
     measure: customercount1 {
         label: "Customer Count"
         group_label: "Customer Metrics"
