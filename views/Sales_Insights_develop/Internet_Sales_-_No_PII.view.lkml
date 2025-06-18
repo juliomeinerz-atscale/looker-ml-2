@@ -22,20 +22,6 @@ view: Internet_Sales___No_PII {
         sql: ${TABLE}."d_city";;
     }
 
-    dimension: d_firstname {
-        label: "First Name"
-        group_label: "Customer Attributes"
-        type: string
-        sql: ${TABLE}."d_firstname";;
-    }
-
-    dimension: d_lastname {
-        label: "Last Name"
-        group_label: "Customer Attributes"
-        type: string
-        sql: ${TABLE}."d_lastname";;
-    }
-
     dimension: d_postalcode {
         label: "Postal Code"
         group_label: "Customer Attributes"
